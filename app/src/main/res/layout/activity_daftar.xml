@@ -9,16 +9,17 @@
     android:orientation="vertical"
     tools:context=".DaftarActivity">
 
+    <!--  Navigasi   -->
     <LinearLayout
-        android:padding="15dp"
+        android:background="#FFFFFF"
+        android:paddingLeft="15dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
+        android:layout_height="50dp">
         <Button
+            android:layout_gravity="center"
             android:layout_width="22dp"
             android:layout_height="19dp"
-            android:background="@drawable/ic_arrow_back_black_24dp"
-            android:backgroundTint="#5C5C5C" />
+            android:background="@drawable/ic_arrow_back_black_24dp" />
     </LinearLayout>
 
     <LinearLayout

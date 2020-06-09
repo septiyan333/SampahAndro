@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edukasi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp"
+    android:background="@color/graylight"
+    tools:context=".EdukasiActivity">
+
+    <!--  Navigasi   -->
+    <LinearLayout
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="22dp"
+            android:layout_height="19dp"
+            android:background="@drawable/ic_arrow_back_black_24dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/hitrash_edukasi" />
+
+    <!-- Image Button Sampah Organik-->
+    <ImageButton
+        android:id="@+id/imgbtnorganik"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:elevation="2dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/organik" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text="Sampah Organik"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <!-- Image Button Sampah Anorganik-->
+    <ImageButton
+        android:id="@+id/imgbtnanorganik"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:elevation="2dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/anorganiksampah" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text="Sampah Anorganik"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+</LinearLayout>

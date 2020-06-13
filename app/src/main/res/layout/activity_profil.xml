@@ -192,10 +192,12 @@
             android:paddingLeft="25dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <ImageView
                 android:layout_width="36dp"
                 android:layout_height="36dp"
-                android:src="@drawable/ic_akun_24dp"/>
+                android:src="@drawable/ic_akun_24dp" />
+
             <TextView
                 android:textColor="#454545"
                 android:textStyle="bold"

@@ -1,4 +1,14 @@
 package com.project.hi_trash;
 
-public class PenjemputanActivity {
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class PenjemputanActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_penjemputan);
+    }
 }

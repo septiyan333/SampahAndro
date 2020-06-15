@@ -10,7 +10,7 @@
     android:paddingTop="0dp"
     android:paddingRight="0dp"
     android:paddingBottom="0dp"
-    android:background="@color/graylight"
+    android:background="#FFFFFF"
     tools:context=".EdukasiActivity">
 
     <!--  Navigasi   -->
@@ -54,6 +54,8 @@
         android:layout_marginTop="5dp"
         android:fontFamily="sans-serif"
         android:text="Sampah Organik"
+        android:textStyle="bold"
+        android:textColor="#000"
         android:textAlignment="center"
         android:textSize="12sp" />
 
@@ -76,5 +78,7 @@
         android:fontFamily="sans-serif"
         android:text="Sampah Anorganik"
         android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#000"
         android:textSize="12sp" />
 </LinearLayout>

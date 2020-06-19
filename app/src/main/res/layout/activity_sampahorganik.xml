@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".SampahOrganik">
+
+    <RelativeLayout
+        android:id="@+id/sampahorganik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <!--Navigasi-->
+            <Button
+                android:layout_width="22dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ic_arrow_back_black_24dp" />
+
+            <!--Image view-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/hitrash_edukasi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sampah Organik"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <!--Garis Horizontal-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginBottom="10dp"
+                android:background="#DCDCDC"
+                android:visibility="visible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!--Scroll View Layout-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sampahorganik">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <!--Image Button Limbah-->
+            <ImageButton
+                android:id="@+id/imgbtnminyak"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:elevation="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/limbah_minyak" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Limbah Minyak"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/imgbtnbuahsayur"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:elevation="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/limbah_buahsayur" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Limbah Buah dan Sayur"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/imgbtnkertas"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:elevation="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/limbah_kertas" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Limbah Kertas"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <ImageButton
+                android:id="@+id/imgbtnkardus"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:elevation="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/limbah_kardus" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Limbah Kardus"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

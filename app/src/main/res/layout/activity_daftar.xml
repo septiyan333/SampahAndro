@@ -47,7 +47,8 @@
                 android:hint="Nama Lengkap Anda"
                 android:padding="10dp"
                 android:textColorHint="#969696"
-                android:textSize="14sp"/>
+                android:textSize="14sp"
+                android:id="@+id/nama_lengkap"/>
         </LinearLayout>
 
         <LinearLayout
@@ -63,7 +64,8 @@
                 android:hint="Alamat Anda"
                 android:padding="10dp"
                 android:textColorHint="#969696"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:id="@+id/alamat"/>
         </LinearLayout>
 
         <LinearLayout
@@ -79,7 +81,8 @@
                 android:hint="Email Anda"
                 android:padding="10dp"
                 android:textColorHint="#969696"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:id="@+id/email"/>
         </LinearLayout>
 
         <LinearLayout
@@ -95,7 +98,8 @@
                 android:hint="Nomor Telepon Anda"
                 android:padding="10dp"
                 android:textColorHint="#969696"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:id="@+id/no_telpon"/>
         </LinearLayout>
 
         <LinearLayout
@@ -111,7 +115,8 @@
                 android:hint="Nama Penggunna"
                 android:padding="10dp"
                 android:textColorHint="#969696"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:id="@+id/nama_pengguna"/>
         </LinearLayout>
 
         <LinearLayout
@@ -129,7 +134,8 @@
                 android:hint="Kata Sandi"
                 android:padding="10dp"
                 android:textColorHint="#969696"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:id="@+id/kata_sandi"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -146,6 +152,7 @@
             android:text="Daftar"
             android:background="@drawable/btn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/daftar"/>
     </LinearLayout>
 </LinearLayout>

@@ -29,14 +29,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LoginActivity extends AppCompatActivity {
-    Button masuk, buat;
+    Button masuk,buat;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         masuk = (Button)findViewById(R.id.masuk);
-        buat = (Button)findViewById(R.id.buat);
+        buat = (Button) findViewById(R.id.buat);
 
         masuk.setOnClickListener(new View.OnClickListener() {
             @Override

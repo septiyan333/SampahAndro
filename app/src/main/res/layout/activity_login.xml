@@ -114,7 +114,7 @@
         android:textColor="#000000"
         android:text="Tidak punya akun?"
         android:textAlignment="center"/>
-    <TextView
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"

@@ -14,13 +14,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfilActivity">
+        <activity android:name=".SampahAnorganik"/>
+        <activity android:name=".SampahOrganik"/>
+        <activity android:name=".TukarpoinActivity"/>
+        <activity android:name=".ProfilActivity"/>
+        <activity android:name=".EdukasiActivity"/>
+        <activity android:name=".PoinActivity"/>
+        <activity android:name=".JadwalActivity"/>
+        <activity android:name=".RiwayatActivity"/>
+        <activity android:name=".PenjemputanActivity"/>
+        <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+    </activity>
     </application>
 
 </manifest>

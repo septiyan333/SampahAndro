@@ -20,12 +20,12 @@ public class EdukasiActivity extends AppCompatActivity {
         imgbtnorganik.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getBaseContext(),SampahAnorganik.class));
+                startActivity(new Intent(getBaseContext(),SampahOrganik.class));
             }
         });imgbtnanorganik.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getBaseContext(),SampahOrganik.class));
+                startActivity(new Intent(getBaseContext(),SampahAnorganik.class));
             }
         });
     }

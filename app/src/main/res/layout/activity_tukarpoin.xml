@@ -122,19 +122,7 @@
                             android:layout_weight="1"
                             android:layout_width="0dp"
                             android:layout_height="match_parent">
-                            <ImageView
-                                android:layout_marginTop="10dp"
-                                android:layout_marginLeft="15dp"
-                                android:src="@drawable/ic_money"
-                                android:layout_width="20dp"
-                                android:layout_height="20dp"/>
-                            <TextView
-                                android:layout_marginTop="10dp"
-                                android:paddingLeft="2dp"
-                                android:textColor="@color/startblue"
-                                android:text="Tukar Poin"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
+
                         </LinearLayout>
                         <!--   Card Bagian Kanan bawah -->
                         <LinearLayout
@@ -184,7 +172,7 @@
                     android:layout_marginLeft="10dp"
                     android:inputType="textEmailAddress"
                     android:background="@drawable/background_form"
-                    android:text="085456272641"
+                    android:text=""
                     android:padding="10dp"
                     android:textColorHint="#969696"
                     android:textSize="22sp" />
@@ -224,9 +212,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <EditText
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="95dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="Harga 15.000 TP"/>
                 <Button
                     android:textAllCaps="false"
@@ -252,9 +241,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <EditText
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="95dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="Harga 20.000 TP"/>
                 <Button
                     android:textAllCaps="false"
@@ -280,9 +270,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <EditText
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="95dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
                     android:text="Harga 30.000 TP"/>
                 <Button
                     android:textAllCaps="false"

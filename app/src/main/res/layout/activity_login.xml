@@ -8,7 +8,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
     <LinearLayout
         android:padding="15dp"
         android:layout_width="match_parent"
@@ -46,8 +45,7 @@
                 android:hint="Nama tlp, email atau nama pengguna"
                 android:padding="10dp"
                 android:textColorHint="#969696"
-                android:textSize="14sp"
-                android:id="@+id/nama"/>
+                android:textSize="14sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -65,8 +63,7 @@
                 android:hint="Kata Sandi"
                 android:padding="10dp"
                 android:textColorHint="#969696"
-                android:textSize="14sp"
-                android:id="@+id/password"/>
+                android:textSize="14sp" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -82,9 +79,7 @@
             android:text="Masuk"
             android:background="@drawable/btn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/masuk"/>
-
+            android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="14dp"
@@ -98,8 +93,7 @@
             android:text="Lupa Kata Sandi?Dapatkan Bantuan."
             android:textAlignment="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/lupa"/>
+            android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
     android:layout_marginTop="200dp"
@@ -113,6 +107,5 @@
         android:textSize="15sp"
         android:textColor="#000000"
         android:text="Tidak punya akun? Buat akun"
-        android:textAlignment="center"
-        android:id="@+id/buat"/>
+        android:textAlignment="center"/>
 </LinearLayout>

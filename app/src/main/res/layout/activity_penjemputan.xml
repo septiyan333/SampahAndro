@@ -239,7 +239,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_alignBaseline="@+id/checkBox2"
                                 android:layout_alignBottom="@+id/checkBox2"
-                                android:layout_toyRightOf="@+id/checkBox2"
+                                android:layout_toRightOf="@+id/checkBox2"
                                 android:text="Buah Sayur"
                                 android:textColor="#454545"
                                 android:textStyle="bold" />

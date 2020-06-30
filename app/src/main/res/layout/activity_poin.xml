@@ -133,6 +133,7 @@
                                 android:paddingLeft="2dp"
                                 android:textColor="@color/startblue"
                                 android:text="Tukar Poin"
+                                android:id="@+id/tukarpoin"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>
                         </LinearLayout>

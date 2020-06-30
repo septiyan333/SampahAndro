@@ -9,13 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfilActivity">
+        <activity android:name=".Limbahplastik"/>
+        <activity android:name=".Limbahkertas"/>
+        <activity android:name=".Limbahkardus"/>
+        <activity android:name=".Limbahkaleng"/>
+        <activity android:name=".Limbahkain"/>
+        <activity android:name=".Limbahminyak"/>
+        <activity android:name=".Limbahsayur"/>
+        <activity android:name=".SampahAnorganik"/>
+        <activity android:name=".SampahOrganik"/>
+        <activity android:name=".TukarpoinActivity"/>
+        <activity android:name=".ProfilActivity"/>
+        <activity android:name=".EdukasiActivity"/>
+        <activity android:name=".PoinActivity"/>
+        <activity android:name=".JadwalActivity"/>
+        <activity android:name=".RiwayatActivity"/>
+        <activity android:name=".PenjemputanActivity"/>
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".DaftarActivity"/>
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+    </activity>
     </application>
 
 </manifest>

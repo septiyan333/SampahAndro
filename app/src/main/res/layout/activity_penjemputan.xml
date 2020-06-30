@@ -96,8 +96,8 @@
                 <!--   Card Bagian Atas  -->
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1">
+                    android:layout_height="50dp"
+                    android:layout_weight="0">
                     <!--   Membuat Horizontal -->
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -148,11 +148,12 @@
                     android:layout_marginRight="10dp"
                     android:background="#45D1D1D1"/>
                 <!--   Garis  -->
+
                 <!--   Card Bagian Bawah  -->
                 <LinearLayout
-                    android:layout_weight="1"
+                    android:layout_weight="0"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp">
+                    android:layout_height="25dp">
                     <!--   Membuat Horizontal  -->
                     <LinearLayout
                         android:weightSum="2"
@@ -180,23 +181,23 @@
                                 android:layout_toRightOf="@+id/checkBox1"
                                 android:text="Minyak"
                                 android:textColor="#454545"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
                         </LinearLayout>
                         <!--   Card Bagian Kanan bawah -->
 
                         <LinearLayout
                             android:layout_weight="1"
                             android:layout_width="0dp"
-                            android:layout_height="30dp">
+                            android:layout_height="match_parent">
                             <CheckBox
-                                android:id="@+id/checkBox2"
+                                android:id="@+id/checkBox3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentLeft="true"
                                 android:focusable="false"
                                 android:focusableInTouchMode="false"/>
                             <TextView
-                                android:id="@+id/code2"
+                                android:id="@+id/code3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_alignBaseline="@+id/checkBox2"
@@ -208,6 +209,201 @@
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
+                <!--       Baris 2         -->
+                <LinearLayout
+                    android:layout_weight="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <!--   Membuat Horizontal  -->
+                    <LinearLayout
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <!--   Card Bagian Kiri bawah -->
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <CheckBox
+                                android:id="@+id/checkBox2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"/>
+
+                            <TextView
+                                android:id="@+id/code2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/checkBox1"
+                                android:layout_alignBottom="@+id/checkBox1"
+                                android:layout_toyRightOf="@+id/checkBox1"
+                                android:text="Buah Sayur"
+                                android:textColor="#454545"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                        <!--   Card Bagian Kanan bawah -->
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <CheckBox
+                                android:id="@+id/checkBox4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"/>
+                            <TextView
+                                android:id="@+id/code4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/checkBox2"
+                                android:layout_alignBottom="@+id/checkBox2"
+                                android:layout_toRightOf="@+id/checkBox2"
+                                android:text="Kertas"
+                                android:textStyle="bold"
+                                android:textColor="#454545" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!--       Baris 2         -->
+
+                <!--       Baris 3         -->
+                <LinearLayout
+                    android:layout_weight="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <!--   Membuat Horizontal  -->
+                    <LinearLayout
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <!--   Card Bagian Kiri bawah -->
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                        </LinearLayout>
+                        <!--   Card Bagian Kanan bawah -->
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <CheckBox
+                                android:id="@+id/checkBox5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"/>
+                            <TextView
+                                android:id="@+id/code5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/checkBox2"
+                                android:layout_alignBottom="@+id/checkBox2"
+                                android:layout_toRightOf="@+id/checkBox2"
+                                android:text="Kardus"
+                                android:textStyle="bold"
+                                android:textColor="#454545" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!--       Baris 3         -->
+
+                <!--       Baris 4         -->
+                <LinearLayout
+                    android:layout_weight="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <!--   Membuat Horizontal  -->
+                    <LinearLayout
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <!--   Card Bagian Kiri bawah -->
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                        </LinearLayout>
+                        <!--   Card Bagian Kanan bawah -->
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <CheckBox
+                                android:id="@+id/checkBox6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"/>
+                            <TextView
+                                android:id="@+id/code6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/checkBox2"
+                                android:layout_alignBottom="@+id/checkBox2"
+                                android:layout_toRightOf="@+id/checkBox2"
+                                android:text="Kaleng"
+                                android:textStyle="bold"
+                                android:textColor="#454545" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!--       Baris 4         -->
+
+                <!--       Baris 5         -->
+                <LinearLayout
+                    android:layout_weight="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <!--   Membuat Horizontal  -->
+                    <LinearLayout
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <!--   Card Bagian Kiri bawah -->
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                        </LinearLayout>
+                        <!--   Card Bagian Kanan bawah -->
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <CheckBox
+                                android:id="@+id/checkBox7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"/>
+                            <TextView
+                                android:id="@+id/code7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/checkBox2"
+                                android:layout_alignBottom="@+id/checkBox2"
+                                android:layout_toRightOf="@+id/checkBox2"
+                                android:text="Kain"
+                                android:textStyle="bold"
+                                android:textColor="#454545" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!--       Baris 5         -->
+
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </RelativeLayout>
